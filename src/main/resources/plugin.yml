@@ -1,0 +1,22 @@
+name: LockDown
+version: ${project.version}
+main: ch.wyss.lockdown.LockDown
+api-version: '1.21'
+authors: [ Julien Wyss ]
+description: A plugin to add password protection to your server
+
+commands:
+  password:
+    description: 'Password for the server'
+    aliases: [pw]
+    usage: '/password <password>'
+
+  lockdown:
+    description: 'Toggle password protection'
+    aliases: [ld]
+    usage: '/lockdown'
+
+  moveFix:
+    description: 'Fixes the movement of the player'
+    aliases: [mf]
+    usage: '/moveFix'
